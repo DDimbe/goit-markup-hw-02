@@ -1,0 +1,93 @@
+/* main text color #212121*/
+/* secondary text color #757575*/
+/* text white #ffffff */
+/* main background col #2F303A */
+/* white background #FFFFFF */
+/* secondary background col #F5F4FA */
+/* brand color #2196F3 */
+/* color: rgba(255, 255, 255, 0.6);*/
+:root {
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --w-text-color: #ffffff;
+    --brand-color: #2196F3;
+    --w-background: #FFFFFF;
+    --sec-background: #F5F4FA;
+    --main-background:#2F303A;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header,
+.com-section,
+.do-section {
+    background-color: var(--w-background)
+}
+.list {
+    list-style-type: none;
+}
+.hero-section,
+.foot {
+    background-color: var(--main-background);
+}
+.logo {
+    color: #000;
+    text-decoration: none;
+}
+.logo-web {
+    color: var(--brand-color);
+}
+.list-link {
+    color: var(--main-color);
+    text-decoration: none;
+}
+.list-link:hover,
+.list-link:focus,
+.contact-list-link:hover,
+.contact-list-link:focus {
+    color: var(--brand-color);
+}
+.contact-list-link {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.main-title {
+    color: var(--w-text-color);
+}
+.btn {
+    background-color: var(--brand-color);
+    columns: var(--w-text-color);
+}
+.com-title {
+    color: var(--main-color);
+}
+.sub-title {
+    color: var(--secondary-color);
+}
+.do-title {
+    color: var(--main-color);
+}
+.team-section {
+    background-color: var(--sec-background);
+}
+.team-title {
+    color: var(--main-color);
+}
+.team-list-title {
+    color: var(--main-color);
+}
+.team-sub-title {
+    color: var(--secondary-color);
+}
+.foot-logo {
+    color: var(--w-text-color);
+    text-decoration: none;
+}
+.foot-link-address {
+    color: var(--w-text-color);
+    text-decoration: none;
+}
+.foot-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
