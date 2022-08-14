@@ -1,4 +1,4 @@
-/* main text color #212121*/
+/* main text color #212121 */
 /* secondary text color #757575*/
 /* text white #ffffff */
 /* main background col #2F303A */
@@ -33,7 +33,6 @@ body {
         font-size: 26px;
         line-height: 1.2;        
         text-decoration: none;
-        cursor: pointer;
     }
     .logo-studio {
         color: #000000;
@@ -63,7 +62,6 @@ body {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        
         text-decoration: none;
     }
 /* Hero */
