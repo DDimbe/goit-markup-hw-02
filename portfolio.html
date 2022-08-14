@@ -6,34 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <!-- Шапка -->
     <header class="header">
         <nav class="nav">
           <a class="logo" href="./index.html">Web<span class="logo-studio">Studio</span></a>
-          <ul class="list">
-            <li class="list-item">
-              <a href="./index.html" class="list-link">Студія</a>
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Студія</a>
             </li>
             <li class="list-item">
-              <a href="./portfolio.html" class="list-link current">Портфоліо</a>
+              <a href="./portfolio.html" class="nav-link current">Портфоліо</a>
             </li>
-            <li class="list-item">
-              <a href="" class="list-link">Контакти</a>
+            <li class="nav-item">
+              <a href="" class="nav-link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="contact">
+        <ul class="contact list">
           <li class="contact-tiem">
             <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
           </li>
@@ -45,7 +39,7 @@
       <main>
         <section>
             <!-- Filter -->
-            <ul class="filter">
+            <ul class="filter list">
                 <li class="filter-item"><button type="button" class="filter-button">Усі</button></li>
                 <li class="filter-item"><button type="button" class="filter-button">Веб-сайти</button></li>
                 <li class="filter-item"><button type="button" class="filter-button">Додатки</button></li>
@@ -53,7 +47,7 @@
                 <li class="filter-item"><button type="button" class="filter-button">Маркетинг</button></li>
             </ul>
             <!-- Works -->
-            <ul class="works">
+            <ul class="works list">
                 <li class="works-item">
                     <a href="" class="works-link">
                         <img src="./img/Works/img1.jpg" alt="На нутбуці висвітлений веб-сайт з картками різних людей" class="img" width="370" height="294">
@@ -134,9 +128,9 @@
         <address class="address">
           <a class="address-logo" href="./index.html">Web<span class="address-logo-studio">Studio</span></a>
           <ul class="footer-list">
-            <li class="footer-list-item">
+            <li class="footer-item">
               <a
-                class="footer-list-link"
+                class="footer-contact"
                 target="_blank"
                 rel="noopener norefferer"
                 href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/data=!4m2!3m1!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0?sa=X&ved=2ahUKEwij4-Hri735AhVkw4sKHWRKDZoQ8gF6BAgVEAE"
@@ -144,11 +138,11 @@
                 м. Київ, пр-т Лесі Українки, 26
               </a>
             </li>
-            <li class="footer-list-item">
-              <a class="footer-list-link call" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li class="footer-item">
+              <a class="footer-contact call" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="footer-list-item">
-              <a class="footer-list-link call" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="footer-item">
+              <a class="footer-contact call" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
